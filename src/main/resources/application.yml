@@ -27,9 +27,9 @@ spring:
         max-interval: 2000 # 2s
         multiplier: 1.1
   datasource:
-    username: user
+    username: admin1234
     password: password
-    url: jdbc:postgresql://polar-postgres:80/polardb_catalog # PostgreSQL 서비스 이름 사용
+    url: jdbc:postgresql://fullaccel-rds-cluster.cluster-crkyqs82uv8y.ap-northeast-2.rds.amazonaws.com:5432/polardb_catalog # PostgreSQL 서비스 이름 사용
     hikari:
       connection-timeout: 2000 #ms
       maximum-pool-size: 5
