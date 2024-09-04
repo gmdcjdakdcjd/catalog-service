@@ -29,7 +29,7 @@ spring:
   datasource:
     username: admin1234
     password: password
-    url: jdbc:postgresql://fullaccel-rds-instance-1.crkyqs82uv8y.ap-northeast-2.rds.amazonaws.com:5432/polardb_catalog # PostgreSQL 서비스 이름 사용
+    url: jdbc:postgresql://fullaccel-rds-instance-1.crkyqs82uv8y.ap-northeast-2.rds.amazonaws.com:5432/polardb_catalog?sslmode=require # PostgreSQL 서비스 이름 사용
     hikari:
       connection-timeout: 2000 #ms
       maximum-pool-size: 5
