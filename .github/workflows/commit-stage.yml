@@ -3,8 +3,8 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: rlfhrdyd/catalog-service
-  VERSION: v4
+  IMAGE_NAME: gmdcjdakdcjd/catalog-service
+  VERSION: v8
 
 jobs:
   build:
