@@ -29,6 +29,8 @@ spring:
         max-interval: 2000 # 2s
         multiplier: 1.1
   datasource:
+    username: user
+    password: password
     url: jdbc:postgresql://polar-postgres:80/polardb_catalog # PostgreSQL 서비스 이름 사용
 #    username: admin1234
 #    password: password
